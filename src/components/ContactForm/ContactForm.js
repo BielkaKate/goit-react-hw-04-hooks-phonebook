@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "./ContactForm.module.css";
 import PropTypes from "prop-types";
-import { useState } from "react/cjs/react.development";
 
 const ContactForm = ({ propOnSubmit }) => {
   const [name, setName] = useState("");
