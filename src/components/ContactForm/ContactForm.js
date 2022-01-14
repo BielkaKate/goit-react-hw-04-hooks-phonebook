@@ -17,7 +17,7 @@ const ContactForm = ({ propOnSubmit }) => {
         setNumber(value);
         break;
       default:
-        console.log("Ошибка");
+        console.log("Упс");
         break;
     }
   };
